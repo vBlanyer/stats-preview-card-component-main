@@ -43,11 +43,13 @@ img {
 
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 .stats {
 	font-weight: 700;
 	text-transform: capitalize;
+	margin: 20px 0;
+
 }
 .card-img {
 	width: 350px;
@@ -70,6 +72,9 @@ img {
 	.card-content {
 		padding: 60px;
 		text-align: left;
+	}
+	.stats {
+		margin: 0;
 	}
 	.stats-container {
 		flex-direction: row;
